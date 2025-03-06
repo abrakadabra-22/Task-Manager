@@ -9,8 +9,6 @@ const PORT = 3000;
 // Middleware to parse JSON body
 app.use(express.json());
 
-
-
 // In-memory task list
 let tasks = [];
 
