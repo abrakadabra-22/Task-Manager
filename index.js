@@ -12,8 +12,6 @@ app.use(express.json());
 // In-memory task list
 let tasks = [];
 
-
-
 // Create a new task
 app.post('/tasks', (req, res) => {
     const { title, description } = req.body;
